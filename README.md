@@ -1,2 +1,3 @@
-# chi-2020-r-workshop
-An introductory R workshop for CHI
+# An introductory R workshop for CHI
+
+Includes an example with text analysis and an example with tabular data.
