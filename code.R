@@ -105,6 +105,8 @@ ggplot(subset(groundnuts, country.description == "Senegal"), aes(x = year, y = q
 
 ## Export
 
+## Create output folder
+
 write.csv(subset(groundnuts, country.description == "Senegal"), "output/groundnuts-senegal.csv", row.names = FALSE)
 
 write_lines(toJSON(subset(groundnuts, country.description == "Senegal")), "output/groundnuts-senegal.json")
