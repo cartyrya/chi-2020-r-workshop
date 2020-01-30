@@ -79,8 +79,8 @@ install.packages("jsonlite")
 
 ## Load packages
 
-library("tidyverse", lib.loc="~/R/win-library/3.5")
-library("jsonlite", lib.loc="~/R/win-library/3.5")
+library("tidyverse")
+library("jsonlite")
 
 ## Load data
 
@@ -110,6 +110,8 @@ ggplot(subset(groundnuts, country.description == "Gambia, The"), aes(x = year, y
 ggplot(subset(groundnuts, country.description == "Senegal"), aes(x = year, y = quantity.metric)) + geom_point(color = "black")
 
 ## Export
+
+## Create output folder
 
 write.csv(subset(groundnuts, country.description == "Senegal"), "output/groundnuts-senegal.csv", row.names = FALSE)
 
