@@ -73,8 +73,8 @@ install.packages("jsonlite")
 
 ## Load packages
 
-library("tidyverse", lib.loc="~/R/win-library/3.5")
-library("jsonlite", lib.loc="~/R/win-library/3.5")
+library("tidyverse")
+library("jsonlite")
 
 ## Load data
 
